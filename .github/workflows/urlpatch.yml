@@ -3,7 +3,7 @@ name: Patch Image via URL
 on:
   workflow_dispatch:
     inputs:
-      image_url:
+      image_url:https://oto.lv.tab.digital/remote.php/dav/files/mianhamza1226%40gmail.com/recovery.img.lz4
         description: 'Recovery Image URL'
         default: 'https://transfer.sh/<file-id>/<file>.img'
         required: true
